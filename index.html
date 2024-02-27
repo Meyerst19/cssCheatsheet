@@ -1,0 +1,108 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Snippet Cheatsheet</title>
+    <link <link rel="stylesheet" href="./assets/css/bmreset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Snippet Cheatsheet</h1>
+      <p>
+        Ever have trouble recalling the exact syntax for you favorite CSS code?
+        Give it a permanent home and add it to this page! Select any snippet
+        below and it'll automatically select all of the code for you to code.
+      </p>
+    </header>
+    <main>
+      <article>
+        <div class="Snippet">
+          <h2>Flexbox Row</h2>
+          <p>Use these properties to create a Flexbox row layout.</p>
+          <div class="codebox">
+            <code class="open">.row {</code>
+            <code class="next">display: flex;</code>
+            <code class="next">flex-direction: row;</code>
+            <code class="next">flex-wrap: wrap;</code>
+            <code class="close">}</code>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="Snippet">
+          <h2>Flexbox Column</h2>
+          <p>Use these properties to create a Flexbox column layout.</p>
+          <div class="codebox">
+            <code class="open">.column {</code>
+            <code class="next">display: flex;</code>
+            <code class="next">flex-direction: column;</code>
+            <code class="close">}</code>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="Snippet">
+          <h2>CSS Grid Layout</h2>
+          <p>Build a 12-column layout using CSS Grid</p>
+          <div class="codebox">
+            <code class="open">.grid {</code>
+            <code class="next">display: grid;</code>
+            <code class="next">width: 100%;</code>
+            <code class="next">grid-template-columns: repeat(12. 1fr);</code>
+            <code class="close">}</code>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="Snippet">
+          <h2>Linear Gradients</h2>
+          <p>
+            This will create a background linear gradient from top to bottom.
+          </p>
+          <div class="codebox">
+            <code class="open">.linear-gradient-background {</code>
+            <code class="next">background-image: linear-gradient(</code>
+            <code class="next">rgba(232, 102, 236, 0.3) 0%,</code>
+            <code class="next">rgba(232, 102, 236, 0.6) 100%</code>
+            <code class="next">);</code>
+            <code class="close">}</code>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="Snippet">
+          <h2>Box Transition Glow</h2>
+          <p>Use transition and box shadows to glow on hover</p>
+          <div class="codebox">
+            <code class="open">.code-card .card-header {</code>
+            <code class="next">border-radius: 8px;</code>
+            <code class="next">transition: all 0.5s ease-in-out;</code>
+            <code class="next">}</code>
+            <code class="next">.code-card:hover,</code>
+            <code class="next">.code-card: hover .card-header {</code>
+            <code class="next"
+              >rgba(232, 102, 236, 1), 0 0 15px rgba (232, 102, 236, 1);</code
+            >
+            <code class="close">}</code>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="Snippet">
+          <h2>Overlay Card with Title</h2>
+          <p>
+            Use position properties and negative margins to raise elements
+            higher than their natural starting point.
+          </p>
+          <div class="codebox">
+            <code class="open">.card-header {</code>
+            <code class="next">position: relative;</code>
+            <code class="next">margin-top: -20px</code>
+            <code class="close">}</code>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>Made with ❤️ and CSS</footer>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+:root {
+  --outer-space: #33393f;
+  --bright-turquoise: #2aefcb;
+  --gin: #e0eae4;
+  --heliotrope: #e866ec;
+}
+
+* {
+  background-color: var(--outer-space);
+}
+header {
+  display: block;
+  text-align: center;
+  width: 555px;
+  color: var(--heliotrope);
+  margin: 10px;
+}
+h1 {
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+p {
+  color: var(--gin);
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+article {
+  color: var(--heliotrope);
+  border: dotted var(--gin);
+  margin: 10px;
+  width: 555px;
+  align-items: stretch;
+}
+h2 {
+  border: solid var(--gin);
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: x-large;
+  align-self: stretch;
+}
+.openbracket {
+  color: var(--gin);
+  background-color: var(--heliotrope);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.next {
+  background-color: var(--heliotrope);
+  padding-left: 10%;
+}
+footer {
+  display: block;
+  text-align: center;
+  width: 555px;
+  color: var(--heliotrope);
+  margin: 5px;
+}
+.codebox {
+  display: flex;
+  flex-direction: column;
+  color: var(--gin);
+}
+.open {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--heliotrope);
+}
+.close {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: var(--heliotrope);
+}
